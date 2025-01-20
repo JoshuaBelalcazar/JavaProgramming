@@ -26,5 +26,5 @@ public class Exercise8 {
 
         // Display the results after swapping
         System.out.println("Swapped values are: " + firstValue + " and " + secondValue);
-    }x
+    }
 }
