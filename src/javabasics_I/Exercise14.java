@@ -1,4 +1,4 @@
-package javabasics;
+package javabasics_I;
 
 import java.io.Console;
 import java.util.Arrays;

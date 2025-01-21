@@ -1,4 +1,4 @@
-package javabasics;
+package javabasics_I;
 
 public class Exercise2 {
     public static void main(String[] args) {

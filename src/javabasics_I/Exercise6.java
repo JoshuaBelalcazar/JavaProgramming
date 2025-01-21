@@ -1,4 +1,4 @@
-package javabasics;
+package javabasics_I;
 
 public class Exercise6 {
     private static final double RADIUS_VAL = 7.5;
