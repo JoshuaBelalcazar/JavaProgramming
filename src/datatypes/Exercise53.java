@@ -1,0 +1,32 @@
+package datatypes;
+
+/*
+Exercise 53:
+Write a Java program to compute the floor division and floor modulus of the given dividend and divisor.
+
+Test Data:
+Dividend (x): -2365
+Divisor (y): 125
+
+Expected Output:
+Floor division using '/' operator: -18
+Floor division using floorDiv() method is: -19
+
+Floor modulus using '%' operator: -115
+Floor modulus using floorMod() method is: 10
+*/
+
+public class Exercise53 {
+    public static void main(String[] args) {
+        int x = -2365;
+        int y = 125;
+
+        System.out.println();
+        System.out.println("Floor division using '/' operator: " + (x / y));
+        System.out.println("Floor division using floorDiv() method is: " + Math.floorDiv(x, y));
+        System.out.println();
+        System.out.println("Floor modulus using '%' operator: " + (x % y));
+        System.out.println("Floor modulus using floorMod() method is: " + Math.floorMod(x, y));
+    }
+}
+
