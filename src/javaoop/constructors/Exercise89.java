@@ -33,9 +33,9 @@ public class Exercise89 {
     // Private inner class Student to avoid conflicts
     private static class Student {
         // Private instance variables
-        private int studentId;
-        private String studentName;
-        private String grade;
+        private final int studentId;
+        private final String studentName;
+        private final String grade;
 
         // Default constructor using constructor chaining
         public Student() {

@@ -58,11 +58,11 @@ public class Exercise122 {
 
     // Private static abstract class Vehicle to avoid conflicts
     private static abstract class Vehicle {
-        private String make;
-        private String model;
-        private int year;
-        private String fuelType;
-        private double fuelEfficiency; // base fuel efficiency
+        private final String make;
+        private final String model;
+        private final int year;
+        private final String fuelType;
+        private final double fuelEfficiency; // base fuel efficiency
 
         public Vehicle(String make, String model, int year, String fuelType, double fuelEfficiency) {
             this.make = make;
@@ -92,7 +92,7 @@ public class Exercise122 {
 
     // Private static inner class Truck extending Vehicle
     private static class Truck extends Vehicle {
-        private double cargoCapacity; // in tons or some unit (sample uses 4.5)
+        private final double cargoCapacity; // in tons or some unit (sample uses 4.5)
 
         public Truck(String make, String model, int year, String fuelType, double fuelEfficiency, double cargoCapacity) {
             super(make, model, year, fuelType, fuelEfficiency);
@@ -124,7 +124,7 @@ public class Exercise122 {
 
     // Private static inner class Car extending Vehicle
     private static class Car extends Vehicle {
-        private int numSeats;
+        private final int numSeats;
 
         public Car(String make, String model, int year, String fuelType, double fuelEfficiency, int numSeats) {
             super(make, model, year, fuelType, fuelEfficiency);
@@ -155,7 +155,7 @@ public class Exercise122 {
 
     // Private static inner class Motorcycle extending Vehicle
     private static class Motorcycle extends Vehicle {
-        private double engineDisplacement; // in cc, default value 0
+        private final double engineDisplacement; // in cc, default value 0
 
         public Motorcycle(String make, String model, int year, String fuelType, double fuelEfficiency) {
             super(make, model, year, fuelType, fuelEfficiency);

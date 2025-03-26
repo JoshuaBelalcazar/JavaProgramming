@@ -33,9 +33,9 @@ public class Exercise92 {
     // Private static inner class Car to avoid conflicts with other classes
     private static class Car {
         // Private instance variables
-        private String make;
-        private String model;
-        private int year;
+        private final String make;
+        private final String model;
+        private final int year;
 
         // Parameterized constructor with default value assignment if invalid values are provided
         public Car(String make, String model, int year) {

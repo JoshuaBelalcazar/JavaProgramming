@@ -28,8 +28,8 @@ public class Exercise90 {
     // Private static inner class Rectangle to avoid conflicts
     private static class Rectangle {
         // Private instance variables
-        private double length;
-        private double width;
+        private final double length;
+        private final double width;
 
         // Parameterized constructor to initialize length and width
         public Rectangle(double length, double width) {

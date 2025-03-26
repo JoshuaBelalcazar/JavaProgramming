@@ -25,8 +25,8 @@ public class Exercise94 {
     // Private static inner class Classroom to avoid conflicts
     private static class Classroom {
         // Private instance variables
-        private String className;
-        private String[] students;
+        private final String className;
+        private final String[] students;
 
         // Parameterized constructor that initializes className and students
         public Classroom(String className, String[] students) {

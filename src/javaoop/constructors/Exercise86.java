@@ -1,4 +1,3 @@
-
 /*
 Exercise 86:
 Write a Java program that demonstrates the use of a default constructor in a class.
@@ -26,8 +25,8 @@ public class Exercise86 {
 // Package-private Cat class (not declared public)
 class Cat {
     // Private instance variables
-    private String name;
-    private int age;
+    private final String name;
+    private final int age;
 
     // Default constructor that initializes name and age
     public Cat() {

@@ -21,8 +21,8 @@ public class Exercise87 {
     // Private static inner class Dog to avoid conflicts
     private static class Dog {
         // Private instance variables
-        private String name;
-        private String color;
+        private final String name;
+        private final String color;
 
         // Parameterized constructor to initialize the instance variables
         public Dog(String name, String color) {

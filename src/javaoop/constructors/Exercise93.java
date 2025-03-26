@@ -26,8 +26,8 @@ public class Exercise93 {
     // Private static inner class Point to avoid conflicts
     private static class Point {
         // Private instance variables
-        private int x;
-        private int y;
+        private final int x;
+        private final int y;
 
         // Constructor that takes int parameters
         public Point(int x, int y) {

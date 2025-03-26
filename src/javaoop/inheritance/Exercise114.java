@@ -1,7 +1,7 @@
 package javaoop.inheritance;
 
 /*
-Exercise 115:
+Exercise 114:
 Write a Java program to create a class called Animal with a method called makeSound().
 Create a subclass called Cat that overrides the makeSound() method to bark.
 This exercise demonstrates inheritance by having Cat override the makeSound() method.

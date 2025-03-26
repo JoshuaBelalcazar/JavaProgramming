@@ -46,10 +46,10 @@ public class Exercise123 {
 
     // Private static abstract class Employee to avoid conflicts
     private static abstract class Employee {
-        private String name;
-        private String address;
-        private double salary;
-        private String jobTitle;
+        private final String name;
+        private final String address;
+        private final double salary;
+        private final String jobTitle;
 
         public Employee(String name, String address, double salary, String jobTitle) {
             this.name = name;
@@ -83,7 +83,7 @@ public class Exercise123 {
 
     // Private static inner class Manager extends Employee
     private static class Manager extends Employee {
-        private int numberOfSubordinates;
+        private final int numberOfSubordinates;
 
         public Manager(String name, String address, double salary, String jobTitle, int numberOfSubordinates) {
             super(name, address, salary, jobTitle);
@@ -113,7 +113,7 @@ public class Exercise123 {
 
     // Private static inner class Developer extends Employee
     private static class Developer extends Employee {
-        private String programmingLanguage;
+        private final String programmingLanguage;
 
         public Developer(String name, String address, double salary, String jobTitle, String programmingLanguage) {
             super(name, address, salary, jobTitle);

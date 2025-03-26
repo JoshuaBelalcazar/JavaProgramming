@@ -45,9 +45,9 @@ public class Exercise88 {
     // Private static inner class Book to avoid conflicts
     private static class Book {
         // Private instance variables
-        private String title;
-        private String author;
-        private double price;
+        private final String title;
+        private final String author;
+        private final double price;
 
         // Default constructor
         public Book() {
