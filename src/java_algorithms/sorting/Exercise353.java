@@ -1,5 +1,6 @@
 package java_algorithms.sorting;
 
+import java.util.Arrays;
 /*
   Exercise 353:
   Write a Java program to sort an array of given integers using the Quick Sort algorithm.
@@ -11,7 +12,6 @@ package java_algorithms.sorting;
   [-5, 0, 1, 2, 3, 7, 45]
  */
 
-import java.util.Arrays;
 
 public class Exercise353 {
 
